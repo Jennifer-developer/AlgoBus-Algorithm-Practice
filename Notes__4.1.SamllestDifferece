@@ -1,0 +1,35 @@
+Sample Input
+arrayOne = [-1, 5, 10, 20, 28, 3]
+
+
+
+arrayTwo = [26, 134, 135, 15, 17]
+
+
+
+Sample Output
+[28, 26]
+
+sorrtedOne = [-1, 3, 5, 10, 20, 28]
+
+sorrtedTwo = [15, 17, 26, 134, 135]
+'0'
+|5-134| = 129
+
+Prompt Explaination:
+find out:
+Smallest Absolute Differece close to Zero
+X1 from arrayOne
+Y1 from arrayTwo
+|X1 - Y1| close to Zero
+best senario: X1 = Y1 === 0
+second best senario: |X1 -Y1| difference is the smallest value
+[X1, Y1] ==> Output
+
+Problem Walkthrough: Pointer System:
+step#1: Pick two numbers: X1 from arrayOne, Y1 from arrayTwo
+step#2: sort both array 
+
+
+step#3: pointer system:
+Round#1:
